@@ -5,7 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>External</title>
+
+    <button onclick="alert('Hello world');">Hello</button>
+
+    <script>
+        function tanya() {
+            let nama = prompt('Nama apa?');
+            alert('Selamat Tinggal ' + nama);
+        }
+    </script>
+
+    <button onclick="tanya();">Nama</button>
+
+    <button onclick="alert('Bye! Sila jumpa lagi');">Selamat Tinggal</button>
+
+    <hr>
+    <input type="text" id="fname">
+    <input type="text" id="lname">
+    <button onclick="cantum();">Concatenate</button>
+    <span id="fullname"></span>
+
+    <script src="script.js"></script>
 </head>
 
 <body>
